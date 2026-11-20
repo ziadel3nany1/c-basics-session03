@@ -116,5 +116,18 @@
             Console.WriteLine(books[i]);
         }
         #endregion
+
+        #region Question 10
+        //10. Write a method PrintFirstBook() that prints the first book in the books array. If the array is empty, use return to exit the method early instead of printing anything.
+
+        static void PrintFirstBook(string[] arr)
+        {
+            if (arr.Length == 0)
+                return;
+
+            Console.WriteLine(arr[0]);
+        }
+        PrintFirstBook(books);
+        #endregion
     }
 }
