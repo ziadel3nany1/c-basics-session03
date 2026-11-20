@@ -66,5 +66,16 @@
             n++;
         }
         #endregion
+
+        #region Question 6
+        //6. Write a do-while loop that prints "Checking book..." exactly 3 times.
+
+        int num = 0;
+        do
+        {
+            Console.WriteLine("Checking book...");
+            num++;
+        } while (num < 4);
+        #endregion
     }
 }
