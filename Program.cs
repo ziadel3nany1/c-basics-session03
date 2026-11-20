@@ -77,5 +77,15 @@
             num++;
         } while (num < 4);
         #endregion
+
+        #region Question 7
+
+        //7. Using the same books array, use a foreach loop to print every book title.
+
+        foreach (string book in books)
+        {
+            Console.WriteLine(book);
+        }
+        #endregion
     }
 }
