@@ -200,6 +200,15 @@ class Program
         Console.WriteLine($"Book: {title}, Pages: {pages}");
         #endregion
 
+        #region Question 7 Updated
+
+        //Build the same sentence again, but using string.Format().
+
+        string sentence = string.Format("Book: {0},Pages: {1}", title, pages);
+        Console.WriteLine(sentence);
+
+        #endregion
+
 
 
 
