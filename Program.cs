@@ -191,6 +191,15 @@ class Program
         Console.WriteLine("Book: " + title + ", Pages: "+ pages);
         #endregion
 
+        #region Question 6 Updated
+
+        //6.Build the same sentence as above, but using string interpolation ($"...").
+
+        title = "Clean Code";
+        pages = 464;
+        Console.WriteLine($"Book: {title}, Pages: {pages}");
+        #endregion
+
 
 
 
