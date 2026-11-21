@@ -1,4 +1,6 @@
-﻿using System.Security.Cryptography;
+﻿using System.Drawing;
+using System;
+using System.Security.Cryptography;
 
 class Program
 {
@@ -143,6 +145,20 @@ class Program
         Console.WriteLine(upperTitle);
 
         #endregion
+
+        #region Question 2 Updated
+
+        //2.Declare two separate string variables, both set to the literal "Clean Code". Use ReferenceEquals()
+        //to check if they point to the same object in memory
+
+        string str1 = "Clean Code";
+        string str2 = "Clean Code";
+        bool isEqual = string.ReferenceEquals(str1, str2);
+        Console.WriteLine(isEqual);
+
+        #endregion
+
+
 
 
     }
