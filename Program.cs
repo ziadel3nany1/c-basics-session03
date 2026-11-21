@@ -182,6 +182,15 @@ class Program
 
         #endregion
 
+        #region Question 5 Updated
+
+        //5.Given string title = "Clean Code"; and int pages = 464;, build the sentence "Book: Clean Code,
+        //Pages: 464" using the + operator
+        title = "Clean Code";
+        int pages = 464;
+        Console.WriteLine("Book: " + title + ", Pages: "+ pages);
+        #endregion
+
 
 
 
